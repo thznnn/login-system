@@ -1,7 +1,7 @@
 package com.login.system.login_system.controller;
 
 import com.login.system.login_system.business.UsuarioService;
-import com.login.system.login_system.infraestrutura.entitys.Usuario;
+import com.login.system.login_system.database.entitys.Usuario;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

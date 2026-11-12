@@ -1,9 +1,7 @@
-package com.login.system.login_system.infraestrutura.entitys;
+package com.login.system.login_system.database.entitys;
 
 import jakarta.persistence.*;
 import lombok.*;
-
-import java.util.List;
 
 @Getter
 @Setter

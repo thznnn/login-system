@@ -1,8 +1,8 @@
 package com.login.system.login_system.business;
 
 
-import com.login.system.login_system.infraestrutura.entitys.Usuario;
-import com.login.system.login_system.infraestrutura.repository.UsuarioRepository;
+import com.login.system.login_system.database.entitys.Usuario;
+import com.login.system.login_system.database.repository.UsuarioRepository;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -16,10 +16,6 @@ public class UsuarioService{
 
         public void salvarUsuario(Usuario usuario){
                 repository.save(usuario);
-        }
-
-        public void salvarTelefone(Usuario telefone){
-                repository.save(telefone);
         }
 
         public Usuario buscarUsuarioPorEmail(String email){
